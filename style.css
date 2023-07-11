@@ -1,0 +1,152 @@
+html{
+    margin-left: 50pt;
+    margin-top: 50pt;
+    margin-right: 50pt;
+    margin-bottom: 50pt;
+}
+
+#heading{
+    border-style: inherit;
+    width: auto;
+}
+
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 50%;
+    
+} 
+tr:hover{
+    color: blanchedalmond;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px;
+}
+head{
+    background-color: darkgoldenrods;
+}
+body{
+    background-color: floralwhite;
+    background-image: url("/home/edisonmeks/Downloads/6117d9b4a5c54f408581221a18774469.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: aqua;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-display: inherit;
+}
+h2{
+    font-style: italic;
+    color: blue;
+    font-size: medium;
+}
+p{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: cyan;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#table{
+    color: aqua;
+    background-color: aliceblue;
+}
+#ul{
+    color: blue;
+    background-color: aquamarine;
+}
+#ol{
+    color: blueviolet;
+    background-color: rgb(183, 209, 35);
+}
+#dl{
+    color: chartreuse;
+    background-color: brown;
+}
+.note{
+    color: rgb(228, 11, 112);
+}
+.reminder{
+    color: rgb(255, 0, 200);
+}
+.must-know{
+    color: crimson;
+}
+iframe{
+    border: none;
+}
+#comform{
+    color: rgb(35, 235, 9);
+    text-align: justify;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: bold;
+}
+form{
+    color: aliceblue;
+    text-decoration: aliceblue;
+    text-transform: capitalize;
+    text-emphasis-color: red;
+}
+a{
+    border: 10px;
+    border-radius: 20cm;
+}
+
+em{
+    text-align: center;
+}
+strong{
+    columns: blue-green;
+    font-weight: 800;
+}
+
+#stats{
+    margin: 50px 0px 50px;
+}
+
+.dropdownbutton{
+    background-color: aliceblue;
+    color: red;
+    border: none;
+    font-size: 16px;
+    padding: 13px;
+    cursor: pointer;
+}
+.dropdown-menu{
+    display: none;
+    background-color: cadetblue;
+    position: absolute;
+    min-width: 150px;
+
+}
+.dropdown-menu a{
+    color: khaki;
+    display: block;
+    text-decoration: none;
+    padding: 11px 15px;
+   
+}
+.dropdown-menu a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown:hover .dropdownbutton{
+    background-color: darkgreen;
+}
+
+
+application.shellEnvironmentResolutionTimeout
