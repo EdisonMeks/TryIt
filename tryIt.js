@@ -26,7 +26,7 @@ function goStore(){
     button1.innerText = "buy 10 health(10 gold)";
     button2.innerText = "buy 10 health(10 gold)";
     button3.innerText = "buy 10 health(10 gold)";
-
+}
 function goCave(){
     console.log("going to cave");
 }
