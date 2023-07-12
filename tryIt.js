@@ -34,3 +34,6 @@ function goCave(){
 function fightDragon(){
     console.log("fighting dragon");
 }
+
+//#before commiting any repository to the cloud repo you should first 
+//solve the conflicts to avoid the 403 Error.
